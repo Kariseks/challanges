@@ -1,0 +1,8 @@
+#start
+ssh -p 2220 'bandit0@bandit.labs.overthewire.org'
+#enter password: bandit0
+
+sshpass -p bandit0 ssh-p 2220 'bandit0@bandit.labs.overthewire.org'
+
+#to reach level1
+cat ~/readme

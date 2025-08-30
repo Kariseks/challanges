@@ -1,0 +1,1 @@
+sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit30@bandit.labs.overthewire.org

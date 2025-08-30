@@ -1,0 +1,3 @@
+sshpass -p morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj ssh -p 2220 'bandit7@bandit.labs.overthewire.org'
+
+grep millionth ./data.txt
