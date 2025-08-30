@@ -1,1 +1,3 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit11@bandit.labs.overthewire.org
+sshpass -p dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr ssh -p 2220 bandit11@bandit.labs.overthewire.org
+
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'

@@ -1,1 +1,6 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit13@bandit.labs.overthewire.org
+sshpass -p FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn ssh -p 2220 bandit13@bandit.labs.overthewire.org
+
+ssh-p 2220 -i sshkey.private bandit14@bandit.labs.overthewire.org
+
+cat /etc/bandit_pass/bandit14
+
