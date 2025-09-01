@@ -1,6 +1,2 @@
-sshpass -p MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx ssh -p 2220 'bandit3@bandit.labs.overthewire.org'
-
- ls -al ./inhere
-
-cat ~/inhere/'...Hiding-From-You'
-
+#!/usr/bin/env bash
+sshpass -p MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx ssh -p 2220 'bandit3@bandit.labs.overthewire.org' ls -al ./inhere cat ~/inhere/'...Hiding-From-You'

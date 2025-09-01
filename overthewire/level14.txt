@@ -1,4 +1,2 @@
-sshpass -p MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS ssh -p 2220 bandit14@bandit.labs.overthewire.org
-
-echo 'MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS' | nc localhost 30000
-
+#!/usr/bin/env bash
+sshpass -p MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS ssh -p 2220 bandit14@bandit.labs.overthewire.org echo 'MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS' | nc localhost 30000

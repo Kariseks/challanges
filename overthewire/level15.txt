@@ -1,5 +1,2 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit15@bandit.labs.overthewire.org
-
-openssl s_client --connect localhost:30001
-
-dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+#!/usr/bin/env bash
+sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit15@bandit.labs.overthewire.org openssl s_client --connect localhost:30001 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc

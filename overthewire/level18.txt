@@ -1,1 +1,3 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit18@bandit.labs.overthewire.org
+#!/usr/bin/env bash
+
+sshpass -p x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO ssh -p 2220 bandit18@bandit.labs.overthewire.org "cat ./readme"

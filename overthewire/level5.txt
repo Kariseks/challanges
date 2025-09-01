@@ -1,5 +1,2 @@
-sshpass -p 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ssh -p 2220 'bandit5@bandit.labs.overthewire.org'
-
-find ./inhere/ -size 1033c -not -perm 111 -exec file {} \; | grep text
-
-cat ./inhere/maybehere07/.file2
+#!/usr/bin/env bash
+sshpass -p 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ssh -p 2220 'bandit5@bandit.labs.overthewire.org' find ./inhere/ -size 1033c -not -perm 111 -exec file {} \; | grep text cat ./inhere/maybehere07/.file2

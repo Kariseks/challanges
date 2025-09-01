@@ -1,3 +1,2 @@
-sshpass -p dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr ssh -p 2220 bandit11@bandit.labs.overthewire.org
-
-cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+#!/usr/bin/env bash
+sshpass -p dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr ssh -p 2220 bandit11@bandit.labs.overthewire.org cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'

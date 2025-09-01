@@ -1,4 +1,2 @@
-sshpass -p 263JGJPfgU6LtdEvgfWU1XP5yac29mFx ssh-p 2220 'bandit2@bandit.labs.overthewire.org'
-
-cat ./'--spaces in this filename--'
-
+#!/usr/bin/env bash
+sshpass -p 263JGJPfgU6LtdEvgfWU1XP5yac29mFx ssh-p 2220 'bandit2@bandit.labs.overthewire.org' cat ./'--spaces in this filename--'

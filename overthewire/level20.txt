@@ -1,1 +1,23 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit20@bandit.labs.overthewire.org
+#!/usr/bin/env bash
+sshpass -p 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO ssh -p 2220 bandit20@bandit.labs.overthewire.org
+
+
+screen
+
+#terminal 1
+nc -l -p 12345
+
+#ctrl+a 
+#n
+
+#terminal 2
+./suconnect 12345
+
+#ctrl+a 
+#n
+
+#terminal 1
+
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO #enter
+
+#copy the new password

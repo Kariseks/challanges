@@ -1,3 +1,2 @@
-sshpass -p ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If ssh-p 2220 'bandit1@bandit.labs.overthewire.org'
-
-cat ./-
+#!/usr/bin/env bash
+sshpass -p ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If ssh-p 2220 'bandit1@bandit.labs.overthewire.org' cat ./-

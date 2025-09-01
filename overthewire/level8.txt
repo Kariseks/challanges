@@ -1,3 +1,2 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 'bandit8@bandit.labs.overthewire.org'
-
-cat ./data.txt | sort |uniq -u
+#!/usr/bin/env bash
+sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 'bandit8@bandit.labs.overthewire.org' cat ./data.txt | sort |uniq -u

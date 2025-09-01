@@ -1,1 +1,5 @@
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit19@bandit.labs.overthewire.org
+#!/usr/bin/env bash
+sshpass -p cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8 ssh -p 2220 bandit19@bandit.labs.overthewire.org
+
+./bandit20-do less /etc/bandit_pass/bandit20
+

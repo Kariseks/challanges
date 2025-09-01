@@ -1,8 +1,7 @@
-sshpass -p 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ ssh -p 2220 'bandit4@bandit.labs.overthewire.org'
+#!/usr/bin/env bash
+sshpass -p 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ ssh -p 2220 'bandit4@bandit.labs.overthewire.org' 
+#just have to try out every option 
 
-#just have to try out every option
-less ./inhere/'-file00.txt'
+less ./inhere/'-file00.txt' 
 
-#sth smarter
-
-file ./inhere/-file* | grep text
+#sth smarter file ./inhere/-file* | grep text

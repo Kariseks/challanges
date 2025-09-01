@@ -1,4 +1,2 @@
-sshpass -p FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey ssh -p 2220 bandit10@bandit.labs.overthewire.org
-
-base64 -d ./data.txt
-
+#!/usr/bin/env bash
+sshpass -p FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey ssh -p 2220 bandit10@bandit.labs.overthewire.org base64 -d ./data.txt

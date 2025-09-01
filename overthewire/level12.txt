@@ -1,20 +1,2 @@
-sshpass -p 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 ssh -p 2220 bandit12@bandit.labs.overthewire.org
-
-mktemp -d /tmp/XXX
-
-cp data.txt /tmp/uqW
-cd /tmp/ugW
-
-xxd -r data.txt > reversed.txt
-file reversed.txt
-mv reversed.txt reversed.gz
-gzip -d reversed.gz
-
-file reversed
-bzip2 -d reversed
-
-file reversed.out
-gzip -d -S .out reversed.out
-
-file reversed
-tar -xvf reversed
+#!/usr/bin/env bash
+sshpass -p 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 ssh -p 2220 bandit12@bandit.labs.overthewire.org mktemp -d /tmp/XXX cp data.txt /tmp/uqW cd /tmp/ugW xxd -r data.txt > reversed.txt file reversed.txt mv reversed.txt reversed.gz gzip -d reversed.gz file reversed bzip2 -d reversed file reversed.out gzip -d -S .out reversed.out file reversed tar -xvf reversed
