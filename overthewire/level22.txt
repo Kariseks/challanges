@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit22@bandit.labs.overthewire.org
+sshpass -p tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q ssh -p 2220 bandit22@bandit.labs.overthewire.org
+
+myname=bandit23
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+less /tmp/$mytarget

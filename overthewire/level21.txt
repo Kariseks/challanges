@@ -1,2 +1,8 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit21@bandit.labs.overthewire.org
+sshpass -p EeoULMCra2q0dSkYj561DX7s1CpBuOBt ssh -p 2220 bandit21@bandit.labs.overthewire.org
+
+nano  /etc/cron.d/cronjob_bandit22
+
+less /usr/bin/cronjob_bandit22.sh
+
+less /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv

