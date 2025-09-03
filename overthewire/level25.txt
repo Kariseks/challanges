@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit25@bandit.labs.overthewire.org
+sshpass -p iCi86ttT4KSNe1armKiwbQNmB3YJP3q4 ssh -p 2220 bandit25@bandit.labs.overthewire.org
+
+
+ssh -p 2220 bandit26@bandit.labs.overthewire.org -i ./bandit26.sshkey
+
+# for 'more' to take over, you need to minimalize the terminal window
+#v
+#:set shell=/bin/bash
+#:shell

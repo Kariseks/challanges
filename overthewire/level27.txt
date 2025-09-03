@@ -1,2 +1,11 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit27@bandit.labs.overthewire.org
+sshpass -p upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB ssh -p 2220 bandit27@bandit.labs.overthewire.org
+
+
+mkdir /tmp/repo27
+
+cd /tmp/repo27
+
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+
+cat ./repo/README
