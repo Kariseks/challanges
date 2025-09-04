@@ -1,2 +1,15 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit31@bandit.labs.overthewire.org
+sshpass -p fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy ssh -p 2220 bandit31@bandit.labs.overthewire.org
+
+mkdir /tmp/repo310
+bandit31@bandit:~$ git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo /tmp/repo310
+
+
+echo ' '> .gitignore
+
+echo 'May I come in?' > key.txt
+git add .
+git commit -m 'bandit31'
+git push 
+
+

@@ -8,3 +8,5 @@ ssh -p 2220 bandit26@bandit.labs.overthewire.org -i ./bandit26.sshkey
 #v
 #:set shell=/bin/bash
 #:shell
+
+cat /etc/bandit_pass/bandit26

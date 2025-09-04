@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit29@bandit.labs.overthewire.org
+sshpass -p 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7 ssh -p 2220 bandit29@bandit.labs.overthewire.org

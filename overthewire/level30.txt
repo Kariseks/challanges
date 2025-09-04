@@ -1,2 +1,11 @@
 #!/usr/bin/env bash
-sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh -p 2220 bandit30@bandit.labs.overthewire.org
+sshpass -p qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL ssh -p 2220 bandit30@bandit.labs.overthewire.org
+
+
+mkdir /tmp/repo300
+git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo /tmp/repo300
+
+cd /tmp/repo300
+
+
+git show $(git tag)
